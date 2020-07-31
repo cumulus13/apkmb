@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>838</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Details</string>
+  </property>
+  <widget class="QLabel" name="l_poster">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>291</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>POSTER</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>430</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="hl_screenshot"/>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>71</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vl_labels">
+    <item>
+     <widget class="QLabel" name="l_name">
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_version">
+      <property name="text">
+       <string>Version</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_category">
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_update">
+      <property name="text">
+       <string>Updated</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_playstore">
+      <property name="text">
+       <string>Playstore</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_developer">
+      <property name="text">
+       <string>Developer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="l_requirements">
+      <property name="text">
+       <string>Requirements</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>20</y>
+     <width>16</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vl_separates">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="l_description">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>180</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Description     :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_whatnew">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>250</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>What's New    :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_features">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>330</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Features         :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_function">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Function         :</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="e_description">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>180</y>
+     <width>401</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="e_whatsnew">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>250</y>
+     <width>401</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="e_features">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>330</y>
+     <width>401</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="e_function">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>390</y>
+     <width>401</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>20</y>
+     <width>391</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vl_content">
+    <item>
+     <widget class="QLabel" name="c_name">
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_version">
+      <property name="text">
+       <string>Version</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_category">
+      <property name="text">
+       <string>Category</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_update">
+      <property name="text">
+       <string>Updated</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_playstore">
+      <property name="text">
+       <string>Playstore</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_developer">
+      <property name="text">
+       <string>Developer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="c_requirements">
+      <property name="text">
+       <string>Requirements</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="e_modinfo">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>490</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_modinfo">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>470</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mod Info :</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>590</y>
+     <width>211</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="vl_download"/>
+  </widget>
+  <widget class="QLabel" name="l_next">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>470</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l_previous">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>470</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Previous</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>411</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>409</width>
+      <height>219</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>470</y>
+     <width>171</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>169</width>
+      <height>219</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>450</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="hl_related"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
